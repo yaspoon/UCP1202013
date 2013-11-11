@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include "Calander.h"
 #include "gui.h"
+#include "Common.h"
 
 #define TITLE "UCP120 Calander Brock York 14840261"
 
@@ -8,7 +9,7 @@ int main(int argc, char* argv[])
 {
     returnCode retVal = okay;
 
-    Windown* theWindow = NULL;
+    Window* theWindow = NULL;
 
     if(setupGui(&theWindow) == okay)
     {
